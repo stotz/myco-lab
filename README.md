@@ -19,6 +19,7 @@ Systemübersicht:
 
 Protokolle:
 
+- [protocols/archivierung.md](protocols/archivierung.md) - Langzeitarchivierung: Master-Bank, Slants, Glycerin, Notation
 - [protocols/agar-medien.md](protocols/agar-medien.md) - MYA, MYRA, MEA: Rezepte und Rollen
 - [protocols/lc.md](protocols/lc.md) - Flüssigkultur: Rezept, Reifepunkt, Spritzenzug
 - [protocols/kornbeutel.md](protocols/kornbeutel.md) - Roggen-Vorbereitung und Beutel-Workflow

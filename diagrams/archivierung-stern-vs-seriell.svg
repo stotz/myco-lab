@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" font-family="sans-serif">
+<style>
+  .t{font-size:13px;fill:#222}.h{font-size:16px;font-weight:bold;fill:#111}
+  .s{font-size:11px;fill:#555}.bad{fill:#b3261e}.good{fill:#1a7f37}
+  .node{fill:#eef3f8;stroke:#4a6b8a;stroke-width:1.5;rx:6}
+  .bank{fill:#fff4d6;stroke:#b8860b;stroke-width:2;rx:8}
+  .arr{stroke:#4a6b8a;stroke-width:1.5;fill:none;marker-end:url(#a)}
+  .arrbad{stroke:#b3261e;stroke-width:1.5;fill:none;marker-end:url(#ab)}
+</style>
+<defs>
+<marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="#4a6b8a"/></marker>
+<marker id="ab" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="#b3261e"/></marker>
+</defs>
+
+<text x="20" y="28" class="h">Seriell (vermeiden)</text>
+<text x="20" y="46" class="s">jede Passage baut auf der letzten auf</text>
+<g>
+<rect x="20"  y="70" width="70" height="34" class="node" rx="6"/><text x="55" y="91" class="t" text-anchor="middle">P1</text>
+<rect x="120" y="70" width="70" height="34" class="node" rx="6"/><text x="155" y="91" class="t" text-anchor="middle">P2</text>
+<rect x="220" y="70" width="70" height="34" class="node" rx="6"/><text x="255" y="91" class="t" text-anchor="middle">P3</text>
+<rect x="320" y="70" width="70" height="34" class="node" rx="6"/><text x="355" y="91" class="t" text-anchor="middle">P7</text>
+<rect x="420" y="70" width="82" height="34" class="node" rx="6"/><text x="461" y="91" class="t" text-anchor="middle">P12 ...</text>
+<line x1="90" y1="87" x2="118" y2="87" class="arrbad"/>
+<line x1="190" y1="87" x2="218" y2="87" class="arrbad"/>
+<line x1="290" y1="87" x2="318" y2="87" class="arrbad"/>
+<line x1="390" y1="87" x2="418" y2="87" class="arrbad"/>
+</g>
+<text x="20" y="132" class="t bad">Drift und Seneszenz akkumulieren mit jeder Passage.</text>
+<text x="20" y="150" class="t bad">Eine Kontamination in der Kette = Linie weg (Single Point of Failure).</text>
+<text x="20" y="168" class="t bad">Passagenzahl nach Monaten unbekannt, Zyklen nicht vergleichbar.</text>
+
+<line x1="20" y1="192" x2="840" y2="192" stroke="#ccc"/>
+
+<text x="20" y="222" class="h">Stern (Master-Bank-Prinzip)</text>
+<text x="20" y="240" class="s">alle Zyklen starten von derselben eingefrorenen Generation</text>
+
+<rect x="60" y="270" width="120" height="40" class="node" rx="6"/>
+<text x="120" y="289" class="t" text-anchor="middle">Ursprung</text>
+<text x="120" y="303" class="s" text-anchor="middle">Spritze / Print / Klon</text>
+<rect x="60" y="340" width="120" height="40" class="node" rx="6"/>
+<text x="120" y="359" class="t" text-anchor="middle">P1 - P3</text>
+<text x="120" y="373" class="s" text-anchor="middle">Selektion</text>
+<line x1="120" y1="310" x2="120" y2="338" class="arr"/>
+
+<rect x="250" y="320" width="180" height="80" class="bank"/>
+<text x="340" y="347" class="t" text-anchor="middle" font-weight="bold">Master-Bank (aus P3)</text>
+<text x="340" y="366" class="s" text-anchor="middle">10-15 Slants, 4-8 Grad C</text>
+<text x="340" y="382" class="s" text-anchor="middle">5-10 Glycerin, -18 Grad C</text>
+<line x1="180" y1="360" x2="248" y2="360" class="arr"/>
+
+<g>
+<rect x="530" y="230" width="130" height="34" class="node" rx="6"/><text x="595" y="251" class="t" text-anchor="middle">Zyklus 1: Slant</text>
+<rect x="530" y="284" width="130" height="34" class="node" rx="6"/><text x="595" y="305" class="t" text-anchor="middle">Zyklus 2: Slant</text>
+<rect x="530" y="338" width="130" height="34" class="node" rx="6"/><text x="595" y="359" class="t" text-anchor="middle">Zyklus 3: Slant</text>
+<rect x="530" y="392" width="130" height="34" class="node" rx="6"/><text x="595" y="413" class="t" text-anchor="middle">Zyklus n: Slant</text>
+<line x1="430" y1="340" x2="528" y2="250" class="arr"/>
+<line x1="430" y1="352" x2="528" y2="302" class="arr"/>
+<line x1="430" y1="366" x2="528" y2="356" class="arr"/>
+<line x1="430" y1="380" x2="528" y2="410" class="arr"/>
+</g>
+
+<g>
+<rect x="700" y="284" width="140" height="34" class="node" rx="6"/><text x="770" y="299" class="t" text-anchor="middle">P4 Reaktivierung</text><text x="770" y="313" class="s" text-anchor="middle">dann Keile / LC</text>
+<rect x="700" y="338" width="140" height="34" class="node" rx="6"/><text x="770" y="353" class="t" text-anchor="middle">K4 Kornbeutel</text><text x="770" y="367" class="s" text-anchor="middle">dann M Monotub</text>
+<line x1="660" y1="355" x2="698" y2="330" class="arr"/>
+<line x1="770" y1="318" x2="770" y2="336" class="arr"/>
+</g>
+
+<text x="60" y="452" class="t good">Jeder Zyklus startet bei identischer Passagenzahl: Ergebnisse bleiben vergleichbar.</text>
+<text x="60" y="470" class="t good">Verlust eines Slants oder Zyklus kostet nichts: die Bank bleibt unberührt.</text>
+<text x="60" y="488" class="t good">Verjüngung nur über Fruit-and-Reclone, danach neue Bank anlegen.</text>
+<text x="60" y="516" class="s">Regel: Aus der Bank wird entnommen, nie in die Bank zurückgeschrieben.</text>
+<text x="60" y="532" class="s">LC ist immer Einweg-Ableger einer Platte, nie Quelle einer Platte.</text>
+</svg>

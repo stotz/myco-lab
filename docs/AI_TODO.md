@@ -5,7 +5,7 @@
 
 ---
 
-## Aktueller Stand (v0003)
+## Aktueller Stand (v0004)
 
 Projektstruktur angelegt. Alle in der Planungsphase erarbeiteten Standards sind
 als Protokolle dokumentiert. Noch keine Messdaten; Laborbetrieb hat nicht begonnen.
@@ -24,7 +24,17 @@ Infrastruktur (beschafft oder bestellt):
 
 ## Aktuelle Arbeit
 
-v0003: Quellen-Dokument
+v0004: Archivierungs-Protokoll
+
+- protocols/archivierung.md neu: Master-Bank-Prinzip, Slant- und
+  Glycerin-Ebene, Stern- vs. serielle Vermehrung mit Begründung,
+  Entnahme-Workflow, Refresh/Verjüngung, Notation mit Sonderfällen
+  (Klon, Multispore), Shop-LC-Protokollierung mit CSV-Beispielen
+- diagrams/archivierung-stern-vs-seriell.svg neu, im Dokument eingebunden
+- protocols/events.md: Typ G (Glycerin-Röhrchen) im Code-System ergänzt
+- README: archivierung.md unter Protokolle verlinkt
+
+Vorherige Arbeit (v0003): Quellen-Dokument
 
 - docs/quellen.md neu: alle ausgewerteten Podcast-/Video-Erkenntnisse mit
   YouTube-Links und Timestamps, Status je Punkt (übernommen/Kandidat/
@@ -63,6 +73,7 @@ Vorherige Arbeit (v0001): Grundgerüst
 
 | Version | Änderungen |
 |---------|------------|
+| v0004 | archivierung.md + SVG-Diagramm; Typ G in events.md; README-Link |
 | v0003 | docs/quellen.md: externe Erkenntnisse mit Timestamps; README-Link |
 | v0002 | AI_Instruktion: Repo-URL stotz, Branch main; Umlaut-Korrekturen |
 | v0001 | Initiale Projektstruktur, Protokolle, CSV-Schemas, AI_Instruktion (Entwurf) |

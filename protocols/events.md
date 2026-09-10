@@ -47,7 +47,7 @@ in decisions.md, sonst sind Zyklen nicht vergleichbar.
 `Linie-TypGeneration-Datum[.Nr]`
 
 - Linie: A, B, C ... (Zuordnung im Kopf von lineage/cultures.csv)
-- Typ: P Platte, S Slant, L Liquid Culture, K Kornbeutel, M Monotub
+- Typ: P Platte, S Slant, G Glycerin-Röhrchen, L Liquid Culture, K Kornbeutel, M Monotub
 - Generation: Passagen seit Ursprung; wandert mit
   (Korn aus P2 ist K2, LC aus P2 ist L3-Logik: LC zählt als Passage)
 - Datum: MMTT; Slants mit Jahr (JJMMTT)
