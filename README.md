@@ -15,6 +15,7 @@ Systemübersicht:
 Überblick / Konzepte:
 
 - [decisions.md](decisions.md) - Entscheidungslog mit Begründungen
+- [docs/quellen.md](docs/quellen.md) - Externe Erkenntnisse mit Video-Links und Timestamps
 
 Protokolle:
 

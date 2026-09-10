@@ -5,7 +5,7 @@
 
 ---
 
-## Aktueller Stand (v0002)
+## Aktueller Stand (v0003)
 
 Projektstruktur angelegt. Alle in der Planungsphase erarbeiteten Standards sind
 als Protokolle dokumentiert. Noch keine Messdaten; Laborbetrieb hat nicht begonnen.
@@ -24,7 +24,18 @@ Infrastruktur (beschafft oder bestellt):
 
 ## Aktuelle Arbeit
 
-v0002: Korrekturen nach Repo-Umzug
+v0003: Quellen-Dokument
+
+- docs/quellen.md neu: alle ausgewerteten Podcast-/Video-Erkenntnisse mit
+  YouTube-Links und Timestamps, Status je Punkt (übernommen/Kandidat/
+  Hintergrund); in README verlinkt
+- Ausgewertet: 7 MycoGeeky-Transkripte plus Ratio-Video inkl.
+  WhiteBeard-Kommentar-Testreihe
+- Offene Kandidaten (Freigabe Betreiber): Kaltwasser-Anmischen und
+  Kondensat-Begründung (agar-medien.md), Geruchs-Check (kornbeutel.md),
+  Schrumpfbanderolen-Test, Lagerregel Silica+O2-Absorber
+
+Vorherige Arbeit (v0002): Korrekturen nach Repo-Umzug
 
 - docs/AI_Instruktion.md: Repo-URL auf github.com/stotz/myco-lab,
   Session-Start-Branch auf main (Freigabe durch Betreiber erteilt)
@@ -52,6 +63,7 @@ Vorherige Arbeit (v0001): Grundgerüst
 
 | Version | Änderungen |
 |---------|------------|
+| v0003 | docs/quellen.md: externe Erkenntnisse mit Timestamps; README-Link |
 | v0002 | AI_Instruktion: Repo-URL stotz, Branch main; Umlaut-Korrekturen |
 | v0001 | Initiale Projektstruktur, Protokolle, CSV-Schemas, AI_Instruktion (Entwurf) |
 
