@@ -62,7 +62,7 @@ nach Aufpumpen ca. 1 bar.
 
 ## AME24 Betriebsart B: Dampfbetrieb (nur falls je Korn im Glas)
 
-Wenig Wasser, Gläser auf Rost, Filterdeckel noetig (Loch + Membran),
+Wenig Wasser, Gläser auf Rost, Filterdeckel nötig (Loch + Membran),
 10 min entlüften, dann wie Presto fahren. Kostet das Vakuumsiegel;
 für Substrat NICHT verwenden. Dokumentiert als Option, aktuell ungenutzt.
 

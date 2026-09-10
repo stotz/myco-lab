@@ -16,7 +16,7 @@ Bei Unklarheiten oder Verbesserungsideen: immer explizit im Chat besprechen, bev
 
 ```
 project=myco-lab
-repo=https://github.com/ursstotz/myco-lab
+repo=https://github.com/stotz/myco-lab
 version=<version steht in docs/AI_TODO.md>
 ```
 
@@ -37,7 +37,7 @@ Die AI darf diese Datei nicht eigenmächtig ändern.
 
 ## Session-Start
 
-Zu Beginn einer Arbeitssession liest die AI direkt aus dem Repo (Branch master):
+Zu Beginn einer Arbeitssession liest die AI direkt aus dem Repo (Branch main):
 
 - README.md
 - docs/AI_Instruktion.md und docs/AI_TODO.md

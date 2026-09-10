@@ -5,7 +5,7 @@
 
 ---
 
-## Aktueller Stand (v0001)
+## Aktueller Stand (v0002)
 
 Projektstruktur angelegt. Alle in der Planungsphase erarbeiteten Standards sind
 als Protokolle dokumentiert. Noch keine Messdaten; Laborbetrieb hat nicht begonnen.
@@ -24,7 +24,14 @@ Infrastruktur (beschafft oder bestellt):
 
 ## Aktuelle Arbeit
 
-v0001: Grundgerüst
+v0002: Korrekturen nach Repo-Umzug
+
+- docs/AI_Instruktion.md: Repo-URL auf github.com/stotz/myco-lab,
+  Session-Start-Branch auf main (Freigabe durch Betreiber erteilt)
+- Rechtschreibung: alle ASCII-Ersatzschreibungen (ae, oe, ue) durch
+  Umlaute ersetzt (decisions.md, sterilisation.md, AI_TODO.md)
+
+Vorherige Arbeit (v0001): Grundgerüst
 
 - Verzeichnisstruktur: docs/, protocols/, lineage/, runs/, climate/
 - 7 Protokolle aus der Planungsphase übertragen
@@ -34,7 +41,6 @@ v0001: Grundgerüst
 
 ## TODO
 
-- Betreiber: AI_Instruktion.md prüfen und freigeben
 - Wareneingangstests: PTFE-Filter (Tropfentest), Silikonstopfen (Dehnung, Kreuz),
   PP-Container (Presto-Einzeltest), Röhrchen (Presto-Probelauf)
 - AME24-Kalttest: 8er-Ringpackung Runda 1053, beide Lagen
@@ -44,8 +50,9 @@ v0001: Grundgerüst
 
 ## History
 
-| Version | Aenderungen |
+| Version | Änderungen |
 |---------|------------|
+| v0002 | AI_Instruktion: Repo-URL stotz, Branch main; Umlaut-Korrekturen |
 | v0001 | Initiale Projektstruktur, Protokolle, CSV-Schemas, AI_Instruktion (Entwurf) |
 
 ## Beschreibung
